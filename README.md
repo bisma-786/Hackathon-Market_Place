@@ -1,25 +1,36 @@
-# Hackathon-Market_Place
-Welcome to GharLeLo, a next-generation rental e-commerce platform revolutionizing Pakistan's real estate industry. Our mission is to simplify the property rental experience for tenants and landlords through transparency, efficiency, and innovation
-This repository contains the source code and documentation for the GharLeLo Marketplace, including:
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Frontend: A user-friendly interface for browsing, listing, and renting properties.
-Backend: Secure APIs for property management, user authentication, and transaction handling.
-Sanity CMS Integration: A headless CMS for managing dynamic property listings and user-generated content.
-Real-Time Updates: For property availability, rental status, and notifications.
-Custom Features: Rental duration tracking, deposit management, and location-based filtering.
-Features
-Search & Filter Properties: By city, rental budget, and property type.
-Real-Time Availability: Get instant updates on property status.
-Landlord & Tenant Profiles: Seamlessly connect and manage interactions.
-Secure Transactions: Token payments and digital contracts.
-Customer Support: Built-in chat system for communication.
-Tech Stack
-Frontend: Next.js, Tailwind CSS
-Backend: Node.js, Express.js
-Database: MongoDB
-CMS: Sanity.io
-APIs: Google Maps, third-party property APIs
-Setup Instructions
-To get started, clone the repository and follow the setup steps in the README.md file.
+## Getting Started
 
-This repository is designed for developers, collaborators, and contributors who share our vision of a better, more efficient rental experience. Pull requests and suggestions are welcome! 
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
